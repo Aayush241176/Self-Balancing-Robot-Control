@@ -52,6 +52,14 @@ https://github.com/user-attachments/assets/95d6b5c3-9936-4dc5-a3d5-7796f7bb91ad
 
 
 
+Hardware Prototype Demonstration:
+
+Real-world physical implementation using an Arduino Nano and MPU6050 IMU. The physical robot executes a high-frequency PID control loop for self-balancing while integrating a remote control (RC) interface for directional velocity commands during dynamic operation.
+
+
+
+https://github.com/user-attachments/assets/e7d2cc87-d01d-47d7-b367-273ef3384a15
+
 
 
 Mathematical Model and State-Space Analysis
