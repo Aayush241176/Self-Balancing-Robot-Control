@@ -13,6 +13,7 @@ The primary objective is to maintain an upright position at zero degrees while s
 Controller Performance & Video Demonstrations
 
 No Controller (Unstable System):
+
 The uncontrolled inverted pendulum system cannot maintain upright equilibrium and diverges immediately.
 
 
@@ -23,6 +24,7 @@ https://github.com/user-attachments/assets/b8ae47fd-0084-4922-9757-daacec539905
 
 
 PID Control (Classical Feedback):
+
 Classical PID control stabilizes the pendulum angle and recovers equilibrium. 
 When subjected to external impulse pushes, the controller restores balance, 
 though with minor overshoot and oscillation as it compensates for position drift.
@@ -40,6 +42,7 @@ https://github.com/user-attachments/assets/ec427553-9775-4963-9a01-e5ffcb30c9e1
 
 
 LQR Control (Optimal State-Space Stabilization):
+
 Full-state feedback LQR control optimizes the trade-off between state deviation and control effort. When subjected to successive external impulse pushes, the system exhibits rapid disturbance rejection, zero steady-state position drift, and minimal settling time without actuator saturation.
 
 
